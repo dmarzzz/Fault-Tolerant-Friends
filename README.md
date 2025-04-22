@@ -8,6 +8,7 @@ Study group dedicated to furthering information and education around distributed
 | [Google File System](./Sessions/gfs.md) | [liamzebedee](https://x.com/liamzebedee) & [maanav](https://x.com/MaanavKhaitan) |  [October 23 2024]()  |
 | [Amazon Dynamo](./Sessions/dynamo.md) | [AdiSeredinschi](https://x.com/AdiSeredinschi) |  [Nov 28 2024]()  |
 | [Mysticeti](./Sessions/mysticeti.md) | [0xevolve](https://x.com/0xevolve) |  [Dec 19 2024]()  |
+| [TikTok Monolith](./Sessions/tiktok-monolith.md) | [liamzebedee](https://x.com/liamzebedee) |  [Apr 22 2025]()  |
 
 ## Proposing Your Own Topic
 
