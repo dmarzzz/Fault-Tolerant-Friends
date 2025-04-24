@@ -11,6 +11,6 @@
 
 ## Session 1
 
-- [Recording]
+- [Recording](https://drive.google.com/file/d/1y5R3dqbjajDF9GQHI1RPp7q4MzZYSxvY/view?usp=sharing)
 - [Slides](https://docs.google.com/presentation/d/1z4azjfkN_mfon9f5wGLFR9byyEhwgdN9iGkJZpPj23w)
-- [Summary Tweet Thread]()
+
