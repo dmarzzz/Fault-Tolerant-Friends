@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    background-color: #0000AA; /* Blue Screen of Death blue */
+    color: #FFFFFF; /* White text */
+    margin: 0;
+    padding: 15px; /* Increased padding for mobile */
+    padding-top: 140px; /* Increased to ensure content is always below header */
+    height: 100vh; /* Use full viewport height instead of min-height */
+    overflow: hidden; /* Prevent scrolling */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Changed from center to flex-start to eliminate extra spacing */
+}
+
+h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; /* Added for better centering */
+    width: 100%;
+    background-color: #0000AA;
+    z-index: 1000;
+    padding: 12px 15px; /* Added horizontal padding for mobile */
+    text-align: center;
+    font-size: 6vw; /* Responsive font size for the title */
+    margin-bottom: 0; /* Remove bottom margin */
+    color: #FFFFFF; /* Keep white text for readability */
+    text-shadow: 
+        0 0 5px #FF00FF,   /* Magenta inner glow */
+        0 0 10px #FF00FF,  /* Magenta */
+        0 0 15px #00FFFF,  /* Cyan */
+        0 0 20px #00FFFF,  /* Cyan */
+        0 0 25px #FF0080,  /* Hot pink */
+        0 0 30px #8000FF,  /* Purple */
+        0 0 35px #0080FF,  /* Electric blue */
+        0 0 40px #FF4000,  /* Orange-red */
+        2px 2px 4px rgba(0, 0, 0, 0.8); /* Black shadow for depth */
+    font-weight: 900;
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
+}
+
+/* Session list - shown by default and when #home is targeted */
+.session-list {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px; /* Increased from 20px to add more spacing below title */
+    display: block; /* Shown by default */
+    padding: 0 10px; /* Added padding for mobile */
+}
+
+/* Session sections - hidden by default */
+.session-section {
+    display: none;
+    margin-top: 10px; /* Reduced to bring content closer */
+    padding-top: 100px; /* Remove extra padding */
+    max-width: 800px;
+    font-size: 0.7em; /* Reduce font size by 30% */
+    padding-bottom: 60px; /* Add bottom padding for footer */
+    padding-left: 10px; /* Added padding for mobile */
+    padding-right: 10px; /* Added padding for mobile */
+}
+
+/* Show session section when targeted */
+.session-section:target {
+    display: block;
+}
+
+/* Hide session list when any specific session is targeted */
+#amazon-dynamo:target ~ .session-list,
+#google-file-system:target ~ .session-list,
+#mysticeti:target ~ .session-list,
+#tendermint:target ~ .session-list,
+#tiktok-monolith:target ~ .session-list {
+    display: none;
+}
+
+#session-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-top: 20px; /* Reduce top margin */
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+#session-title.hidden {
+    display: none;
+}
+
+.session-list a {
+    display: block;
+    margin: 15px 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 0.8em; /* Further reduced font size for session text */
+    padding: 8px 0;
+    border-bottom: 1px dotted #FFFFFF;
+    font-weight: 400;
+}
+
+.session-list a:hover {
+    color: #CCCCCC;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 170, 0.2);
+    padding-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 0.6em; /* Smaller, more elegant */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px; /* Rounded, pill-shaped */
+    padding: 8px 16px;
+    font-weight: 400;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth, Apple-like easing */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.back-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-1px); /* Subtle lift effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.session-content-inner {
+    margin-top: 0; /* Remove extra margin since we added it to session-section */
+    line-height: 1.6;
+}
+
+.session-content-inner h1 {
+    display: none; /* Hide the session title headers */
+    margin-top: 5px; /* Reduce top margin */
+    padding-bottom: 5px; /* Reduce bottom padding */
+    color: #FFFFFF;
+    border-bottom: 2px dotted #FFFFFF;
+    font-weight: 700;
+}
+
+.session-content-inner h2 {
+    color: #FFFFFF;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.session-content-inner h3 {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.session-content-inner a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.session-content-inner a:hover {
+    color: #CCCCCC;
+}
+
+.session-content-inner ul {
+    margin-left: 20px;
+}
+
+.session-content-inner li {
+    margin: 8px 0;
+}
+
+.session-content-inner strong {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: normal; /* Allow wrapping for ASCII art */
+    background-color: #0000AA;
+    padding: 5px 0; /* Reduce footer padding by 50% */
+    font-size: 1vw; /* Reduce font size by 50% */
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3em; /* Adjust font size for larger screens */
+        padding: 12px 0; /* Remove horizontal padding on desktop */
+    }
+
+    #footer {
+        font-size: 0.5em; /* Reduced by 20% for smaller ASCII art on desktop */
+    }
+    
+    body {
+        padding: 10px; /* Reduce padding on desktop */
+        padding-top: 220px; /* Significantly increased to ensure session list is below header */
+    }
+    
+    .session-list {
+        padding: 0; /* Remove padding on desktop */
+    }
+    
+    .session-section {
+        padding-left: 0; /* Remove padding on desktop */
+        padding-right: 0; /* Remove padding on desktop */
+        padding-top: 200px; /* Adjust session section padding for desktop */
+    }
+}
+
+/* Mobile-specific styles */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 5vw; /* Slightly smaller on mobile for better fit */
+        padding: 10px 20px; /* More horizontal padding on mobile */
+        line-height: 1.2; /* Better line height for mobile */
+    }
+    
+    .session-list {
+        padding: 0 20px; /* More padding on mobile */
+    }
+    
+    .session-section {
+        padding-left: 20px; /* More padding on mobile */
+        padding-right: 20px; /* More padding on mobile */
+        font-size: 0.8em; /* Slightly larger text on mobile */
+    }
+    
+    .back-link {
+        font-size: 0.7em; /* Slightly larger back button on mobile */
+    }
+    
+    #footer a {
+        font-size: 1.2em !important; /* Much larger Telegram link on mobile */
+        padding: 12px 20px !important; /* More padding for easier tapping */
+        margin: 10px 0 !important; /* More vertical spacing */
+    }
+    
+    #footer {
+        font-size: 3vw !important; /* Larger ASCII art on mobile */
+    }
+} 

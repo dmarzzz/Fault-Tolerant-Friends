@@ -9,21 +9,7 @@
 - URL 2
 
 ## Session 1
-
-- Discussion Questions:
-  - Question 1
-  - Question 2
-
 - [Recording]()
 - [Slides]()
 - [Summary Tweet Thread]()
 
-## Session 2
-
-- Discussion Questions:
-  - Question 1
-  - Question 2
-
-- [Recording]()
-- [Slides]()
-- [Summary Tweet Thread]()

@@ -2,7 +2,6 @@
 
 - **Topic:** Google File System
 - **Guest Lecturers:** [liamzebedee](https://x.com/liamzebedee) & [maanav](https://x.com/MaanavKhaitan)
-- **Discussion Leaders:**
 
 ## Resources
 - [The Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)

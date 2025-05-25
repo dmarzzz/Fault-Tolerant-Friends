@@ -12,10 +12,3 @@
 
 - [Slides](https://docs.google.com/presentation/d/13pBKfyQxo9fMzmVuAywBwHqxnikeLFfXoPkSuGerZEo/edit?usp=sharing)
 
-## Session 2
-
-- [Recording]()
-- [Slides]()
-- Discussion Questions:
-  - How does the safety proof work?
-- [Summary Tweet Thread]()

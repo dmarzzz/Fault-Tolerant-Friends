@@ -1,8 +1,7 @@
-# Session Topic
+# Mysticeti
 
 - **Topic**: Mysticeti
-- **Guest Lecturers:**
-- **Discussion Leaders:** [0xevolve](https://x.com/0xevolve)
+- **Guest Lecturers:** [0xevolve](https://x.com/0xevolve)
 
 ## Resources
 - https://sonnino.com/slides/alberto-sonnino/mysticeti-v8.pdf

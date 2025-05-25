@@ -1,8 +1,7 @@
-# Session Topic
+# Amazon Dynamo
 
 - **Topic**: Amazon Dynamo
 - **Guest Lecturers:** [AdiSeredinschi](https://x.com/AdiSeredinschi)
-- **Discussion Leaders:** -
 
 ## Resources
 
