@@ -1,4 +1,4 @@
-# Multi-proposer Construction on top of Tendermint
+# Multiproposer on Tendermint
 
 - **Topic**: Multi-Proposer Construction on top of Tendermint
 - **Guest Lecturers:** [AdiSeredinschi](https://x.com/AdiSeredinschi)
@@ -18,7 +18,4 @@
   - [Video recording](https://drive.google.com/file/d/12wvabMk6b2Fcuz7W3hB7peoq1dO-qkrJ/view?usp=sharing)
   - [Chat transcript](https://drive.google.com/file/d/1dXCQYXNEFKh8cByV6fmC51B-ONG93d3u/view?usp=sharing)
 - [Slides](https://link.excalidraw.com/p/readonly/fqUf5nqmgc4Z7Y0Xx63H)
-- Summary Tweet Thread - TBD
 - [lu.ma event page](https://lu.ma/2bm03xat)
-
-## Session 2
